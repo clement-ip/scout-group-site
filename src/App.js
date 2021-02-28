@@ -10,9 +10,6 @@ import About from './components/About.js';
 import FAQ from './components/FAQ.js';
 import Contact from './components/Contact.js';
 
-// import 'bootstrap/dist/css/bootstrap.css'; 
-// import 'bootstrap/dist/js/bootstrap.js';
-
 function App() {
   return (
     <div className="App">
