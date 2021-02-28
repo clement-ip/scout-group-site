@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -15,13 +16,16 @@ import Contact from './components/Contact.js';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      {/* <Footer/> */}
-      {/* <Hero/> */}
-      <About/>
-      {/* <FAQ/> */}
-      {/* <Contact/> */}
-      <Footer/>
+      <Router>
+        <Header/>
+          <Switch>
+            <Route exact path='/' component={Hero}/>
+            <Route path='/about' component={About}/>
+            <Route path='/faq' component={FAQ}/>
+            <Route path='/contact' component={Contact}/>
+          </Switch>
+        <Footer/>
+      </Router>
     </div>
   );
 }
