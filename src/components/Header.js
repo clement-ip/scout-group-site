@@ -21,7 +21,7 @@ function Header(){
                             {/* <a href="services.html">About Us</a> */}
                         </li>
 
-                        <li className="dropdown"><a href="#"><span>Programs</span><i className="bi bi-chevron-down"/></a>
+                        <li className="dropdown"><span>Programs <i className="bi bi-chevron-down"/></span>
                             <ul>
                                 <li>
                                     <a href="#">Cub Scouts</a>
@@ -54,7 +54,7 @@ function Header(){
                             <Link to="/faq">FAQ</Link>
                             {/* <a href="pricing.html">FAQ</a> */}
                         </li>
-                        <li className="dropdown"><a href="#"><span>Resoucers</span><i className="bi bi-chevron-down"/></a>
+                        <li className="dropdown"><span>Resoucers <i className="bi bi-chevron-down"/></span>
                             <ul>
                                 <li>
                                     <a href="about.html">Email Login</a>
