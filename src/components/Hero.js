@@ -7,13 +7,7 @@ function Hero(){
     return(
       <div>
         <section id="hero">
-          <div id="heroCarousel" data-bs-interval="5000" className="carousel slide carousel-fade" data-bs-ride="carousel">
-            {/* <ol className="carousel-indicators" id="hero-carousel-indicators">
-              <li data-target="#heroCarousel" data-slide-to="0" className="active"></li>
-              <li data-target="#heroCarousel" data-slide-to="1"></li>
-              <li data-target="#heroCarousel" data-slide-to="2"></li>
-            </ol> */}
-            
+          <div id="heroCarousel" data-bs-interval="5000" className="carousel slide carousel-fade" data-bs-ride="carousel">            
             <div className="carousel-inner" role="listbox">
       
               {/* <!-- Slide 1 --> */}
