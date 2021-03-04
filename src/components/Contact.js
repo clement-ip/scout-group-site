@@ -34,23 +34,44 @@ function Contact(){
                             <div className="col-lg-4 info">
                             <i className="bi bi-geo-alt"></i>
                             <h4>Location:</h4>
-                            <p>A108 Adam Street<br/>New York, NY 535022</p>
+                            <p><strong>Cubs, Venturers:</strong><br/>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
                             <i className="bi bi-envelope"></i>
                             <h4>Email:</h4>
-                            <p>info@example.com<br/>contact@example.com</p>
+                            <p>info@example.com</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
                             <i className="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+1 5589 55488 51<br/>+1 5589 22475 14</p>
+                            <h4>Flickr:</h4>
+                            <p>+1 5589 55488 51</p>
                             </div>
                         </div>
                     </div>
-                
+                    <br/>
+                    <div className="info-wrap">
+                        <div className="row">
+                            <div className="col-lg-4 info">
+                            <i className="bi bi-geo-alt"></i>
+                            <h4>Facebook:</h4>
+                            <p>A108 Adam Street</p>
+                            </div>
+                        
+                            <div className="col-lg-4 info mt-4 mt-lg-0">
+                            <i className="bi bi-envelope"></i>
+                            <h4>Twitter:</h4>
+                            <p>info@example.com</p>
+                            </div>
+                        
+                            <div className="col-lg-4 info mt-4 mt-lg-0">
+                            <i className="bi bi-phone"></i>
+                            <h4>Instagram:</h4>
+                            <p>+1 5589 55488 51</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
                 </div>
