@@ -1,44 +1,53 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Header(){
     return(
         <header id="header" className="fixed-top">
             <div className="container d-flex align-items-center">
 
-                <h1 className="logo me-auto"><a href="index.html"><span>Com</span>pany</a></h1>
+                <h1 className="logo me-auto">
+                    <NavLink to="/"><span>Com</span>pany</NavLink>
+                </h1>
                 {/* Uncomment below if you prefer to use an image logo */}
-                {/* <a href="index.html" className="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" className="img-fluid"/></a> */}
+                {/* <NavLink to="/" className="logo me-auto me-lg-0">
+                    <img src="assets/img/logo.png" alt="" className="img-fluid"/>
+                </NavLink> */}
+                {/* <a href="index.html" className="logo me-auto me-lg-0">
+                    <img src="assets/img/logo.png" alt="" className="img-fluid"/>
+                </a> */}
 
                 <nav id="navbar" className="navbar order-last order-lg-0">
                     <ul>
                         <li>
-                            <Link to ="/">Home</Link>
-                            {/* <a href="index.html" className="active">Home</a> */}
+                            <NavLink exact to ="/">Home</NavLink>
                         </li>
                         <li>
-                            <Link to="/about">About Us</Link>
-                            {/* <a href="services.html">About Us</a> */}
+                            <NavLink to="/about">About Us</NavLink>
                         </li>
 
                         <li className="dropdown"><span>Programs <i className="bi bi-chevron-down"/></span>
                             <ul>
                                 <li>
-                                    <a href="#">Cub Scouts</a>
+                                    <NavLink to='/cubs'>Cub Scouts (Ages 8-10)</NavLink>
+                                    {/* <a href="#">Cub Scouts</a> */}
                                 </li>
                                 <li>
-                                    <a href="#">Scouts</a>
+                                    <NavLink to='/scouts'>Scouts (Ages 11-14)</NavLink>
+                                    {/* <a href="#">Scouts</a> */}
                                 </li>
                                 <li>
-                                    <a href="#">Venturer Scouts</a>
+                                    <NavLink to='/venturers'>Venturer Scouts (Ages 15-17)</NavLink>
+                                    {/* <a href="#">Venturer Scouts</a> */}
                                 </li>
                                 <li>
-                                    <a href="#">Rover Scouts</a>
+                                    <NavLink to='/rovers'>Rover Scouts (Ages 18-26)</NavLink>
+                                    {/* <a href="#">Rover Scouts</a> */}
                                 </li>
                                 {/* <li>
                                     <a href="#">Leadership Team</a>
                                 </li> */}
-                                {/* <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
+                                {/* <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"/></a>
                                     <ul>
                                         <li><a href="#">Deep Drop Down 1</a></li>
                                         <li><a href="#">Deep Drop Down 2</a></li>
@@ -51,35 +60,39 @@ function Header(){
                         </li>
 
                         <li>
-                            <Link to="/faq">FAQ</Link>
-                            {/* <a href="pricing.html">FAQ</a> */}
+                            <NavLink to="/faq">FAQ</NavLink>
                         </li>
                         <li className="dropdown"><span>Resoucers <i className="bi bi-chevron-down"/></span>
                             <ul>
                                 <li>
-                                    <a href="about.html">Email Login</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">Email Login</a>
                                 </li>
                                 <li>
-                                    <a href="team.html">myScouts</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">myScouts</a>
                                 </li>
                                 <li>
-                                    <a href="testimonials.html">Thank a Scouter</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">Thank a Scouter</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">Zoom</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">Google Meets</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <Link to='contact'>Contact Us</Link>
-                            {/* <a href="contact.html">Contact Us</a> */}
+                            <NavLink to='contact'>Contact Us</NavLink>
                         </li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"/>
                 </nav>
 
                 <div className="header-social-links d-flex">
-                    <a href="#" className="facebook"><i className="bu bi-facebook"/></a>
-                    <a href="#" className="twitter"><i className="bu bi-twitter"/></a>
-                    <a href="#" className="instagram"><i className="bu bi-instagram"/></a>
-                    {/* <a href="#" className="flickr"><i className="bu bxl-flickr-square"/></a> */}
+                    <a href="#" className="facebook" target="_blank" rel="noopener noreferrer"><i className="bu bi-facebook"/></a>
+                    <a href="#" className="twitter" target="_blank" rel="noopener noreferrer"><i className="bu bi-twitter"/></a>
+                    <a href="#" className="instagram" target="_blank" rel="noopener noreferrer"><i className="bu bi-instagram"/></a>
+                    {/* <a href="#" className="flickr" target="_blank" rel="noopener noreferrer"><i className="bu bxl-flickr-square"/></a> */}
                 </div>
             </div>
         </header>

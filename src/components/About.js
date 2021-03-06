@@ -1,10 +1,11 @@
 import React from 'react';
+import Breadcrumbs from './Breadcrumbs';
 
 function About(){
     return(
         <div>
             {/* Breadcrumbs */}
-            <section id="breadcrumbs" className="breadcrumbs">
+            {/* <section id="breadcrumbs" className="breadcrumbs">
                 <div className="container">
 
                     <div className="d-flex justify-content-between align-items-center">
@@ -16,7 +17,9 @@ function About(){
                     </div>
 
                 </div>
-            </section>
+            </section> */}
+
+            <Breadcrumbs section="About"/>
 
             {/* <!-- ======= About Us Section ======= --> */}
             <section id="about-us" className="about-us">

@@ -1,24 +1,12 @@
 import React from 'react';
+import Breadcrumbs from '../Breadcrumbs';
 
 import FAQList from './FAQList.json'
 
 function FAQ(){
     return(
         <div>
-            {/* <!-- ======= Breadcrumbs ======= --> */}
-            <section id="breadcrumbs" className="breadcrumbs">
-            <div className="container">
-
-                <div className="d-flex justify-content-between align-items-center">
-                <h2>Frequently Asked Questions</h2>
-                <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li>FAQ</li>
-                </ol>
-                </div>
-
-            </div>
-            </section>
+            <Breadcrumbs section="FAQ"/>
 
             {/* <!-- ======= Frequently Asked Questions Section ======= --> */}
             <section id="faq" className="faq section-bg">
