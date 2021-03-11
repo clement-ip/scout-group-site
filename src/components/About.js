@@ -4,62 +4,63 @@ import Breadcrumbs from './Breadcrumbs';
 function About(){
     return(
         <div>
-            {/* Breadcrumbs */}
-            {/* <section id="breadcrumbs" className="breadcrumbs">
-                <div className="container">
-
-                    <div className="d-flex justify-content-between align-items-center">
-                    <h2>About</h2>
-                    <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li>About</li>
-                    </ol>
-                    </div>
-
-                </div>
-            </section> */}
-
             <Breadcrumbs section="About"/>
 
             {/* <!-- ======= About Us Section ======= --> */}
             <section id="about-us" className="about-us">
                 <div className="container" data-aos="fade-up">
-
-                    <div className="row content">
-                    <div className="col-lg-6" data-aos="fade-right">
-                        <h2>Eum ipsam laborum deleniti velitena</h2>
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
-                    </div>
-                    <div className="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                        <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
-                        </p>
-                        <ul>
-                        <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-                        <li><i className="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                        <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-                        </ul>
-                        <p className="font-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                        </p>
-                    </div>
-                    </div>
+                    <p>
+                        Established in 2003, the 69th Knights of Kensington Scout Group has served the community by providing weekly activities to boys and girls predominately between the ages of 8 to 14. We are one of the fastest growing Scout Groups across the country, as we specialize in reaching out to new immigrants, while helping them integrate with the Canadian culture through the Scouting program.
+                    </p>
+                    <p>
+                        The Scouters/Leaders in each Section are carefully selected and trained to ensure a high quality program delivery. 
+                    </p>
+                    {/* <div className="row content">
+                        <div className="col-lg-6" data-aos="fade-right">
+                            <h2>Eum ipsam laborum deleniti velitena</h2>
+                            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+                        </div>
+                        <div className="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+                            <p>
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                            </p>
+                            <ul>
+                                <li>
+                                    <i className="ri-check-double-line"/> Ullamco laboris nisi ut aliquip ex ea commodo consequa
+                                </li>
+                                <li>
+                                    <i className="ri-check-double-line"/> Duis aute irure dolor in reprehenderit in voluptate velit
+                                </li>
+                                <li>
+                                    <i className="ri-check-double-line"/> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                </li>
+                            </ul>
+                            <p className="font-italic">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div> */}
                 </div>
             </section>
 
             {/* <!-- ======= Our Team Section ======= --> */}
-            <section id="team" className="team section-bg">
-                <div className="container">
+            <section id="team" className="team section-bg" >
+                <div className="container" data-aos="fade-up">
 
-                    <div className="section-title" data-aos="fade-up">
-                        <h2>Our <strong>Team</strong></h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <div className="section-title">
+                        <h2>Our Beginnings</h2>
+                        {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
                     </div>
-
-                    <div className="row">
+                    <p>
+                        The 69th Knights of Kensington Scout Group commenced its inaugural year in August 2003. Meeting at the Kensington Community Centre in Vancouver, it received tremendous support from the local Lord Selkirk Elementary School. It was originally led only by members of the Pacific Coast Council and Vancouver East Area Service Teams, but membership rose quickly, and the leaders began to recruit additional Scouters to continue building the program.
+                    </p>
+                    <p>
+                        Although this parent-sponsored Scout Group initially consisted only of a Wolf Cub Pack, the younger siblings of Cubs began to show an interest in the program. An advertising error by the community centre left the 69th Knights to recruit some children below the typical Cub age of eight years old, and soon, a Beaver Colony was started to meet this demand. As youth members began participating in outdoor activities, excitement for the Scouting program grew in the community, and membership numbers increased dramatically. The 69th Knights have since disbanded the Colony and focused available resources on the Cub Pack and new Scout Troop, formed in September 2004. The quality activities, high membership, and active leadership team of the 69th Knights have proven this Scout Group to be a strong and energetic force in the Scouting community.
+                    </p>
+                    <p>
+                        The concept of diversity continues to be a driving factor in the Group, and the mosaic of cultural backgrounds found present in its meeting hall weekly is reflective of Vancouver's vastly rich multicultural society. Couples with a young and open-minded leadership team, the Scout Group has succeeded in creating a thriving learning environment. The valuable education that participating youth receive, along with the stories, games, crafts, and badges of the Scouting program, ensures that all members of the 69th Knights have an enjoyable time every weekend when they get together.
+                    </p>
+                    {/* <div className="row">
 
                         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                             <div className="member" data-aos="fade-up">
@@ -133,73 +134,7 @@ function About(){
                             </div>
                         </div>
 
-                    </div>
-
-                </div>
-            </section>
-
-            {/* <!-- ======= Our Skills Section ======= --> */}
-            <section id="skills" className="skills">
-                <div className="container">
-
-                    <div className="section-title" data-aos="fade-up">
-                    <h2>Our <strong>Skills</strong></h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                    </div>
-
-                    <div className="row skills-content">
-
-                    <div className="col-lg-6" data-aos="fade-up">
-
-                        <div className="progress">
-                        <span className="skill">HTML <i className="val">100%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                        <div className="progress">
-                        <span className="skill">CSS <i className="val">90%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                        <div className="progress">
-                        <span className="skill">JavaScript <i className="val">75%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-                        <div className="progress">
-                        <span className="skill">PHP <i className="val">80%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                        <div className="progress">
-                        <span className="skill">WordPress/CMS <i className="val">90%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                        <div className="progress">
-                        <span className="skill">Photoshop <i className="val">55%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    </div>
+                    </div> */}
 
                 </div>
             </section>
@@ -209,7 +144,10 @@ function About(){
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
-                    <h2>Clients</h2>
+                        <h2>Programs</h2>
+                        <p>
+                            We offer the following programs, and each of our sections were awarded with the Council Commissioner's Quality Award, for providing a quality program to the youth.
+                        </p>
                     </div>
 
                     <div className="row no-gutters clients-wrap clearfix" data-aos="fade-up">
