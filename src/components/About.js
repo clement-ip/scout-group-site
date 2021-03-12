@@ -9,12 +9,15 @@ function About(){
             {/* <!-- ======= About Us Section ======= --> */}
             <section id="about-us" className="about-us">
                 <div className="container" data-aos="fade-up">
-                    <p>
-                        Established in 2003, the 69th Knights of Kensington Scout Group has served the community by providing weekly activities to boys and girls predominately between the ages of 8 to 14. We are one of the fastest growing Scout Groups across the country, as we specialize in reaching out to new immigrants, while helping them integrate with the Canadian culture through the Scouting program.
-                    </p>
-                    <p>
+                    <h3>
+                        Established in 2003, the 69th Knights of Kensington Scout Group has served the community by providing weekly activities to boys and girls predominately between the ages of 8 to 14.
+                    </h3>
+                    <h3> 
+                        We are one of the fastest growing Scout Groups across the country, as we specialize in reaching out to new immigrants, while helping them integrate with the Canadian culture through the Scouting program.
+                    </h3>
+                    {/* <p>
                         The Scouters/Leaders in each Section are carefully selected and trained to ensure a high quality program delivery. 
-                    </p>
+                    </p> */}
                     {/* <div className="row content">
                         <div className="col-lg-6" data-aos="fade-right">
                             <h2>Eum ipsam laborum deleniti velitena</h2>
@@ -52,14 +55,24 @@ function About(){
                         {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
                     </div>
                     <p>
-                        The 69th Knights of Kensington Scout Group commenced its inaugural year in August 2003. Meeting at the Kensington Community Centre in Vancouver, it received tremendous support from the local Lord Selkirk Elementary School. It was originally led only by members of the Pacific Coast Council and Vancouver East Area Service Teams, but membership rose quickly, and the leaders began to recruit additional Scouters to continue building the program.
+                        Originally led only by members of the Pacific Coast Council and East Vancouver Area Service Teams, the 69th Knights of Kensington Scout Group commenced its inaugural year in August 2003. Meeting at the Kensington Community Centre (KCC) in Vancouver, it received tremendous support from the local community, especially from the nearby Lord Selkirk Elementary School. 
                     </p>
                     <p>
-                        Although this parent-sponsored Scout Group initially consisted only of a Wolf Cub Pack, the younger siblings of Cubs began to show an interest in the program. An advertising error by the community centre left the 69th Knights to recruit some children below the typical Cub age of eight years old, and soon, a Beaver Colony was started to meet this demand. As youth members began participating in outdoor activities, excitement for the Scouting program grew in the community, and membership numbers increased dramatically. The 69th Knights have since disbanded the Colony and focused available resources on the Cub Pack and new Scout Troop, formed in September 2004. The quality activities, high membership, and active leadership team of the 69th Knights have proven this Scout Group to be a strong and energetic force in the Scouting community.
+                        Initially, this parent-sponsored Scout Group initially consisted only of a Wolf Cub Pack. However, the younger siblings of those parents who were below the age requirement of Cubs began to show an interest in the program. On top of that, an advertising error by KCC led us to recruit some children below the typical Cub age. Seeing an influx of younger children registering for our program, a Beaver Colony was started to meet this demand. 
                     </p>
                     <p>
-                        The concept of diversity continues to be a driving factor in the Group, and the mosaic of cultural backgrounds found present in its meeting hall weekly is reflective of Vancouver's vastly rich multicultural society. Couples with a young and open-minded leadership team, the Scout Group has succeeded in creating a thriving learning environment. The valuable education that participating youth receive, along with the stories, games, crafts, and badges of the Scouting program, ensures that all members of the 69th Knights have an enjoyable time every weekend when they get together.
+                        As youth members began participating in outdoor activities, excitement for the Scouting program grew in the community. Membership numbers increased dramatically, which led the leaders to begin recruiting additional Scouters to continue building the program.
                     </p>
+                    <p>
+                        Seeing that most registrations were from children of older ages, changes had to be made. We disbanded the Colony and focused available resources on the Cub Pack. Additionally, in September 2004, a new Scout Troop was formed to take in those who were just over the age of Cubs.
+                    </p>
+                    <p>
+                        The quality activities delivered every week and high membership numbers demonstrates that this Scout Group is a strong and energetic force in the Scouting community. The concept of diversity continues to be a driving factor for us, and the mosaic of cultural backgrounds found present on weekly basis is reflective of Vancouver's vastly rich multicultural society. 
+                    </p>
+                    <p>
+                        With a young and open-minded leadership team, we have succeeded in creating a thriving learning environment. The valuable education that participating youth receive, along with the stories, games, crafts, and badges of the Scouting program, ensures that all members have an enjoyable time every weekend when they get together.
+                    </p>
+
                     {/* <div className="row">
 
                         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
