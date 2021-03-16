@@ -6,13 +6,13 @@ function Header(){
         <header id="header" className="fixed-top">
             <div className="container d-flex align-items-center">
 
-                <h1 className="logo me-auto">
+                {/* <h1 className="logo me-auto">
                     <NavLink to="/"><span>Com</span>pany</NavLink>
-                </h1>
+                </h1> */}
                 {/* Uncomment below if you prefer to use an image logo */}
-                {/* <NavLink to="/" className="logo me-auto me-lg-0">
-                    <img src="assets/img/logo.png" alt="" className="img-fluid"/>
-                </NavLink> */}
+                <NavLink to="/" className="logo me-auto">
+                    <img src="assets/img/logos/headerLogo.jpg" alt="" className="img-fluid"/>
+                </NavLink>
                 {/* <a href="index.html" className="logo me-auto me-lg-0">
                     <img src="assets/img/logo.png" alt="" className="img-fluid"/>
                 </a> */}

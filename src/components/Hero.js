@@ -34,12 +34,14 @@ function Hero(){
       
           </div>
           <div className="carousel-container">
-              <div className="carousel-content animate__animated animate__fadeInUp">
+              <div className="carousel-content animate__animated animate__fadeInUp text-center">
                 <h2>69th Knights of Kensington Scout Group</h2>
-                <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <p>Since 2003, based in Vancouver, BC, Canada.</p>
                 {/* <div className="text-center"><a href="" className="btn-get-started">Read More</a></div> */}
                 <div className="text-center">
-                  <Link to="/about" className="btn-get-started">Read More</Link>
+                  <Link to="/about" className="btn-get-started">History</Link>
+                  <Link to="/" className="btn-get-started">Programs</Link>
+                  <Link to="/contact" className="btn-get-started">Contact Us</Link>
                 </div>
               </div>
           </div>

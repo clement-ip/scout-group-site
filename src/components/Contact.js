@@ -20,21 +20,22 @@ function Contact(){
                     <div className="info-wrap">
                         <div className="row">
                             <div className="col-lg-4 info">
-                            <i className="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p><strong>Cubs, Venturers:</strong><br/>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p>
+                                <i className="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p>
+                                {/* <p><strong>Cubs, Venturers:</strong><br/>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p> */}
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                            <i className="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>info@example.com</p>
+                                <i className="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>info@example.com</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                            <i className="bi bi-phone"></i>
-                            <h4>Flickr:</h4>
-                            <p>+1 5589 55488 51</p>
+                                <i className="bi bi-phone"></i>
+                                <h4>Flickr:</h4>
+                                <p>+1 5589 55488 51</p>
                             </div>
                         </div>
                     </div>
@@ -42,21 +43,21 @@ function Contact(){
                     <div className="info-wrap">
                         <div className="row">
                             <div className="col-lg-4 info">
-                            <i className="bi bi-geo-alt"></i>
-                            <h4>Facebook:</h4>
-                            <p>A108 Adam Street</p>
+                                <i className="bi bi-facebook"></i>
+                                <h4>Facebook:</h4>
+                                <p>A108 Adam Street</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                            <i className="bi bi-envelope"></i>
+                                <i className="bi bi-twitter"></i>
                             <h4>Twitter:</h4>
                             <p>info@example.com</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                            <i className="bi bi-phone"></i>
-                            <h4>Instagram:</h4>
-                            <p>+1 5589 55488 51</p>
+                                <i className="bi bi-instagram"></i>
+                                <h4>Instagram:</h4>
+                                <p>+1 5589 55488 51</p>
                             </div>
                         </div>
                     </div>

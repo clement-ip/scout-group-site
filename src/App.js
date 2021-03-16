@@ -40,6 +40,7 @@ function App() {
             <Route path='/rovers' component={Rovers}/>
           </Switch>
         <Footer/>
+        {/* </ScrollToTop> */}
       </Router>
     </div>
   );

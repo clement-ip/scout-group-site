@@ -7,8 +7,8 @@ function About(){
             <Breadcrumbs section="About"/>
 
             {/* <!-- ======= About Us Section ======= --> */}
-            <section id="about-us" className="about-us">
-                <div className="container" data-aos="fade-up">
+            <section id="about-us" className="about-us section-bg">
+                <div className="container text-center" data-aos="fade-up">
                     <h3>
                         Established in 2003, the 69th Knights of Kensington Scout Group has served the community by providing weekly activities to boys and girls predominately between the ages of 8 to 14.
                     </h3>
@@ -47,7 +47,7 @@ function About(){
             </section>
 
             {/* <!-- ======= Our Team Section ======= --> */}
-            <section id="team" className="team section-bg" >
+            <section id="beginnings">
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
@@ -72,7 +72,47 @@ function About(){
                     <p>
                         With a young and open-minded leadership team, we have succeeded in creating a thriving learning environment. The valuable education that participating youth receive, along with the stories, games, crafts, and badges of the Scouting program, ensures that all members have an enjoyable time every weekend when they get together.
                     </p>
-
+                    <div className="section-title mt-5">
+                        <h3>Our Crest</h3>
+                    </div>
+                    <div className="row content">
+                        <div className="col-lg-3" data-aos="fade-right" >
+                            <div class="text-center">
+                                <img src="assets/img/logos/histLogo.jpg" alt=""/>
+                            </div>
+                        </div>
+                        <div className="col-lg-9 pt-4 pt-lg-0" data-aos="fade-left">
+                            <p>
+                                The original and official 69th Knights of Kensington Group crest was designed and created by Joe Quibuyen, Brian Cheng, and Clement Cheng.
+                            </p>
+                            <p>
+                                The <b>shield</b> represents our determination in defending our virtues, beliefs, and standards. On it is a symbol of the patron saint of England and Scouting: <b>St. George’s Cross</b>. On top of the cross, we find <b>King’s Arthur <i>Excalibur</i></b> encircled by his crown. These items stand for justice, nobility, and fortitude.
+                            </p>
+                            <p>
+                                Within one section of the shield is the Group mascot, the <b>fox</b>, which symbolizes diplomacy, freedom, adaptability, and keenness. 
+                            </p>
+                            <p>
+                                Other symbols depict Lord Baden-Powell’s <b>fleur-de-lis</b>, the <b>flag of British Columbia</b>, and the <b>Canadian Maple Leaf</b>.
+                            </p>
+                            <p>
+                                Our motto, <i>Fortitudo</i>, is Latin for “fortitude” or “strength”. It is often defined as a train that enables a person to encounter danger, bear pain, or face adversity with courage. This motto reflects the determination and dedication of the member of this group to set high goals and achieve them despite obstacles that may stand in their way.
+                            </p>
+                            {/* <ul>
+                                <li>
+                                    <i className="ri-check-double-line"/> Ullamco laboris nisi ut aliquip ex ea commodo consequa
+                                </li>
+                                <li>
+                                    <i className="ri-check-double-line"/> Duis aute irure dolor in reprehenderit in voluptate velit
+                                </li>
+                                <li>
+                                    <i className="ri-check-double-line"/> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                </li>
+                            </ul>
+                            <p className="font-italic">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p> */}
+                        </div>
+                    </div>
                     {/* <div className="row">
 
                         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
@@ -153,7 +193,7 @@ function About(){
             </section>
 
             {/* <!-- ======= Our Clients Section ======= --> */}
-            <section id="clients" className="clients">
+            <section id="clients" className="clients section-bg">
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
