@@ -24,7 +24,7 @@ function Footer(){
                     </div>
 
                     <div className="col-lg-2 col-md-6 footer-links">
-                        {/* <h4>Useful Links</h4> */}
+                        <h4>Useful Links</h4>
                         <ul>
                         <li><i className="bx bx-chevron-right"></i> <a href="#">Registration Instructions</a></li>
                         <li><i className="bx bx-chevron-right"></i> <a href="#">No One Left Behind (NOLB)</a></li>
@@ -35,13 +35,13 @@ function Footer(){
                     </div>
 
                     <div className="col-lg-3 col-md-6 footer-links">
-                        {/* <h4>Our Services</h4> */}
+                        <h4>Scouts Canada Links</h4>
                         <ul>
                         {/* <li><i className="bx bx-chevron-right"></i> <a href="#">myScouts Registration Instructions</a></li>
                         <li><i className="bx bx-chevron-right"></i> <a href="#">No One Left Behind (NOLB)</a></li> */}
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">Scouts Canada Website</a></li>
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">Scouts Canada Wiki</a></li>
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">Scouts Canada Help Centre</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="#">Official Website</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="#">Wiki</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="#">Help Centre Ticket Request</a></li>
                         {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> */}
                         </ul>
                     </div>

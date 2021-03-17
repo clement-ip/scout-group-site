@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import Programs from './programs/ProgramsMain';
 // import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -36,16 +37,17 @@ function Hero(){
           <div className="carousel-container">
               <div className="carousel-content animate__animated animate__fadeInUp text-center">
                 <h2>69th Knights of Kensington Scout Group</h2>
-                <p>Since 2003, based in Vancouver, BC, Canada.</p>
+                <p>Since 2003. Based in Vancouver, British Columbia, Canada.</p>
                 {/* <div className="text-center"><a href="" className="btn-get-started">Read More</a></div> */}
                 <div className="text-center">
                   <Link to="/about" className="btn-get-started">History</Link>
-                  <Link to="/" className="btn-get-started">Programs</Link>
+                  {/* <Link to="/programs" className="btn-get-started">Programs</Link> */}
                   <Link to="/contact" className="btn-get-started">Contact Us</Link>
                 </div>
               </div>
           </div>
         </section>
+        {/* <Programs/> */}
       </div>
     );
 }

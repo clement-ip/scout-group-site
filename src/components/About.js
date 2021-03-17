@@ -10,7 +10,7 @@ function About(){
             <section id="about-us" className="about-us section-bg">
                 <div className="container text-center" data-aos="fade-up">
                     <h3>
-                        Established in 2003, the 69th Knights of Kensington Scout Group has served the community by providing weekly activities to boys and girls predominately between the ages of 8 to 14.
+                        Established in 2003, the 69th Knights of Kensington Scout Group has served the community by providing weekly activities to youth predominately between the ages of 8 to 14.
                     </h3>
                     <h3> 
                         We are one of the fastest growing Scout Groups across the country, as we specialize in reaching out to new immigrants, while helping them integrate with the Canadian culture through the Scouting program.
@@ -188,72 +188,6 @@ function About(){
                         </div>
 
                     </div> */}
-
-                </div>
-            </section>
-
-            {/* <!-- ======= Our Clients Section ======= --> */}
-            <section id="clients" className="clients section-bg">
-                <div className="container" data-aos="fade-up">
-
-                    <div className="section-title">
-                        <h2>Programs</h2>
-                        <p>
-                            We offer the following programs, and each of our sections were awarded with the Council Commissioner's Quality Award, for providing a quality program to the youth.
-                        </p>
-                    </div>
-
-                    <div className="row no-gutters clients-wrap clearfix" data-aos="fade-up">
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-1.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-2.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-3.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-4.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-5.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-6.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-7.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-6">
-                        <div className="client-logo">
-                        <img src="assets/img/clients/client-8.png" className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-
-                    </div>
 
                 </div>
             </section>

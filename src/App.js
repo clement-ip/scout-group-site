@@ -15,6 +15,7 @@ import Cubs from './components/programs/Cubs.js';
 import Scouts from './components/programs/Scouts.js';
 import Venturers from './components/programs/Venturers.js';
 import Rovers from './components/programs/Rovers.js';
+import Programs from './components/programs/ProgramsMain.js';
 
 function App() {
   AOS.init({
@@ -32,6 +33,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Hero}/>
             <Route path='/about' component={About}/>
+            <Route path='/programs' component={Programs}/>
             <Route path='/faq' component={FAQ}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/cubs' component={Cubs}/>

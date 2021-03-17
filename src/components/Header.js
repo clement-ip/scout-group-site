@@ -26,7 +26,8 @@ function Header(){
                             <NavLink to="/about">About Us</NavLink>
                         </li>
 
-                        <li className="dropdown"><span>Programs <i className="bi bi-chevron-down"/></span>
+                        {/* <li className="dropdown"><span>Programs <i className="bi bi-chevron-down"/></span> */}
+                        <li className="dropdown"><NavLink to='/programs'>Programs <i className="bi bi-chevron-down"/></NavLink>
                             <ul>
                                 <li>
                                     <NavLink to='/cubs'>Cub Scouts (Ages 8-10)</NavLink>
