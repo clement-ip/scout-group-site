@@ -13,9 +13,6 @@ function Header(){
                 <NavLink to="/" className="logo me-auto">
                     <img src="assets/img/logos/headerLogo.jpg" alt="" className="img-fluid"/>
                 </NavLink>
-                {/* <a href="index.html" className="logo me-auto me-lg-0">
-                    <img src="assets/img/logo.png" alt="" className="img-fluid"/>
-                </a> */}
 
                 <nav id="navbar" className="navbar order-last order-lg-0">
                     <ul>
@@ -90,10 +87,18 @@ function Header(){
                 </nav>
 
                 <div className="header-social-links d-flex">
-                    <a href="#" className="facebook" target="_blank" rel="noopener noreferrer"><i className="bu bi-facebook"/></a>
-                    <a href="#" className="twitter" target="_blank" rel="noopener noreferrer"><i className="bu bi-twitter"/></a>
-                    <a href="#" className="instagram" target="_blank" rel="noopener noreferrer"><i className="bu bi-instagram"/></a>
-                    {/* <a href="#" className="flickr" target="_blank" rel="noopener noreferrer"><i className="bu bxl-flickr-square"/></a> */}
+                    <a href={process.env.REACT_APP_FACEBOOK_URL} className="facebook" target="_blank" rel="noopener noreferrer">
+                        <i className="bu bi-facebook"/>
+                    </a>
+                    <a href={process.env.REACT_APP_INSTAGRAM_URL} className="instagram" target="_blank" rel="noopener noreferrer">
+                        <i className="bu bi-instagram"/>
+                    </a>
+                    <a href={process.env.REACT_APP_TWITTER_URL} className="twitter" target="_blank" rel="noopener noreferrer">
+                        <i className="bu bi-twitter"/>
+                    </a>
+                    <a href={process.env.REACT_APP_FLICKR_URL} className="flickr" target="_blank" rel="noopener noreferrer">
+                        <i className="bx bxl-flickr-square"/>
+                    </a>
                 </div>
             </div>
         </header>

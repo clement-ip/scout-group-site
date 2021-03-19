@@ -6,7 +6,6 @@ function About(){
         <div>
             <Breadcrumbs section="About"/>
 
-            {/* <!-- ======= About Us Section ======= --> */}
             <section id="about-us" className="about-us section-bg">
                 <div className="container text-center" data-aos="fade-up">
                     <h3>
@@ -46,7 +45,6 @@ function About(){
                 </div>
             </section>
 
-            {/* <!-- ======= Our Team Section ======= --> */}
             <section id="beginnings">
                 <div className="container" data-aos="fade-up">
 
@@ -64,7 +62,7 @@ function About(){
                         As youth members began participating in outdoor activities, excitement for the Scouting program grew in the community. Membership numbers increased dramatically, which led the leaders to begin recruiting additional Scouters to continue building the program.
                     </p>
                     <p>
-                        Seeing that most registrations were from children of older ages, changes had to be made. We disbanded the Colony and focused available resources on the Cub Pack. Additionally, in September 2004, a new Scout Troop was formed to take in those who were just over the age of Cubs.
+                        Seeing that most registrations were from children of older ages, changes had to be made. We disbanded the Colony and focused available resources on the Cub Pack. Additionally, in September 2004, the Scout Troop was formed to take in those who were just over the age of Cubs.
                     </p>
                     <p>
                         The quality activities delivered every week and high membership numbers demonstrates that this Scout Group is a strong and energetic force in the Scouting community. The concept of diversity continues to be a driving factor for us, and the mosaic of cultural backgrounds found present on weekly basis is reflective of Vancouver's vastly rich multicultural society. 
@@ -83,7 +81,7 @@ function About(){
                         </div>
                         <div className="col-lg-9 pt-4 pt-lg-0" data-aos="fade-left">
                             <p>
-                                The original and official 69th Knights of Kensington Group crest was designed and created by Joe Quibuyen, Brian Cheng, and Clement Cheng.
+                                The official 69th Knights of Kensington Group Crest was designed and created by Joe Quibuyen, Brian Cheng, and Clement Cheng.
                             </p>
                             <p>
                                 The <b>shield</b> represents our determination in defending our virtues, beliefs, and standards. On it is a symbol of the patron saint of England and Scouting: <b>St. George’s Cross</b>. On top of the cross, we find <b>King’s Arthur <i>Excalibur</i></b> encircled by his crown. These items stand for justice, nobility, and fortitude.
@@ -95,7 +93,7 @@ function About(){
                                 Other symbols depict Lord Baden-Powell’s <b>fleur-de-lis</b>, the <b>flag of British Columbia</b>, and the <b>Canadian Maple Leaf</b>.
                             </p>
                             <p>
-                                Our motto, <i>Fortitudo</i>, is Latin for “fortitude” or “strength”. It is often defined as a train that enables a person to encounter danger, bear pain, or face adversity with courage. This motto reflects the determination and dedication of the member of this group to set high goals and achieve them despite obstacles that may stand in their way.
+                                Our motto, <i>Fortitudo</i>, is Latin for <b>“fortitude”</b> or <b>“strength”</b>. It is often defined as a train that enables a person to encounter danger, bear pain, or face adversity with courage. This motto reflects the determination and dedication of the member of this group to set high goals and achieve them despite obstacles that may stand in their way.
                             </p>
                             {/* <ul>
                                 <li>
@@ -188,7 +186,6 @@ function About(){
                         </div>
 
                     </div> */}
-
                 </div>
             </section>
         </div>
