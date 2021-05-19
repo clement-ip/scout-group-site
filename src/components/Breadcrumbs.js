@@ -16,12 +16,13 @@ function Breadcrumbs(props){
         }
         else{
             const link = props.section.toLowerCase();
+            const fixedLink = `/${link}`;
             return(
                 <div className="d-flex justify-content-between align-items-center">
                     <h2>{props.subsection}</h2>
                     <ol>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to={link}>{props.section}</Link></li>
+                        <li><Link to={fixedLink}>{props.section}</Link></li>
                         <li>{props.subsection}</li>
                     </ol>
                 </div>

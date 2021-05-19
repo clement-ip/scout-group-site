@@ -27,19 +27,19 @@ function Header(){
                         <li className="dropdown"><NavLink to='/programs'>Programs <i className="bi bi-chevron-down"/></NavLink>
                             <ul>
                                 <li>
-                                    <NavLink to='/cubs'>Cub Scouts (Ages 8-10)</NavLink>
+                                    <NavLink to='/programs/cubs'>Cub Scouts (Ages 8-10)</NavLink>
                                     {/* <a href="#">Cub Scouts</a> */}
                                 </li>
                                 <li>
-                                    <NavLink to='/scouts'>Scouts (Ages 11-14)</NavLink>
+                                    <NavLink to='/programs/scouts'>Scouts (Ages 11-14)</NavLink>
                                     {/* <a href="#">Scouts</a> */}
                                 </li>
                                 <li>
-                                    <NavLink to='/venturers'>Venturer Scouts (Ages 15-17)</NavLink>
+                                    <NavLink to='/programs/venturers'>Venturer Scouts (Ages 15-17)</NavLink>
                                     {/* <a href="#">Venturer Scouts</a> */}
                                 </li>
                                 <li>
-                                    <NavLink to='/rovers'>Rover Scouts (Ages 18-26)</NavLink>
+                                    <NavLink to='/programs/rovers'>Rover Scouts (Ages 18-26)</NavLink>
                                     {/* <a href="#">Rover Scouts</a> */}
                                 </li>
                                 {/* <li>
@@ -60,7 +60,7 @@ function Header(){
                         <li>
                             <NavLink to="/faq">FAQ</NavLink>
                         </li>
-                        <li className="dropdown"><span>Resoucers <i className="bi bi-chevron-down"/></span>
+                        <li className="dropdown"><span>Resources <i className="bi bi-chevron-down"/></span>
                             <ul>
                                 <li>
                                     <a href="#" target="_blank" rel="noopener noreferrer">Email Login</a>

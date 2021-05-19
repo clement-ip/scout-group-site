@@ -7,7 +7,10 @@ function Contact(){
             <Breadcrumbs section="Contact"/>
             
             <div className="map-section">
-                {/* <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen/> */}
+                {/* <iframe style="border:0; width: 100%; height: 350px;" 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" 
+                    frameborder="0" 
+                    allowfullscreen/> */}
             </div>
 
             <section id="contact" className="contact">
@@ -33,8 +36,7 @@ function Contact(){
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                                {/* <i className="bi bi-phone"/> */}
-                                <i class= "bx bxl-flickr-square"/>
+                                <i className= "bx bxl-flickr-square"/>
                                 <h4>Flickr:</h4>
                                 <p>www.flickr.com/photos/69scouts/albums</p>
                             </div>
@@ -66,7 +68,7 @@ function Contact(){
                 
                 </div>
                 
-                <div className="row mt-5 justify-content-center" data-aos="fade-up">
+                {/* <div className="row mt-5 justify-content-center" data-aos="fade-up">
                     <div className="col-lg-10">
                         <form action="forms/contact.php" method="post" role="form" className="php-email-form">
                             <div className="row">
@@ -91,7 +93,7 @@ function Contact(){
                             <div className="text-center"><button type="submit">Send Message</button></div>
                         </form>
                     </div>
-                </div>
+                </div> */}
             </div>
             </section>
         </div>

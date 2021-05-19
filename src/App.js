@@ -33,13 +33,13 @@ function App() {
           <Switch>
             <Route exact path='/' component={Hero}/>
             <Route path='/about' component={About}/>
-            <Route path='/programs' component={Programs}/>
+            <Route exact path='/programs' component={Programs}/>
             <Route path='/faq' component={FAQ}/>
             <Route path='/contact' component={Contact}/>
-            <Route path='/cubs' component={Cubs}/>
-            <Route path='/scouts' component={Scouts}/>
-            <Route path='/venturers' component={Venturers}/>
-            <Route path='/rovers' component={Rovers}/>
+            <Route path='/programs/cubs' component={Cubs}/>
+            <Route path='/programs/scouts' component={Scouts}/>
+            <Route path='/programs/venturers' component={Venturers}/>
+            <Route path='/programs/rovers' component={Rovers}/>
           </Switch>
         <Footer/>
         {/* </ScrollToTop> */}

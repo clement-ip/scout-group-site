@@ -75,7 +75,7 @@ function About(){
                     </div>
                     <div className="row content">
                         <div className="col-lg-3" data-aos="fade-right" >
-                            <div class="text-center">
+                            <div className="text-center">
                                 <img src="assets/img/logos/histLogo.jpg" alt=""/>
                             </div>
                         </div>
