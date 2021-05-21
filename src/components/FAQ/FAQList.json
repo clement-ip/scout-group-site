@@ -3,36 +3,71 @@
         {
             "id": "1",
             "delay": "0",
-            "question": "Non consectetur a erat nam at lectus urna duis?",
-            "answer":"Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non."
+            "question": "Where do you meet?",
+            "answer":"For Cubs (Age 8 to 11) and for Scouts (Age 11 to 14), we meet on Sundays from 14:00 to 16:00. Venturers (Age 14 to 17) meet on Sundays from 13:00 to 14:30. We are at Kensington Community Centre, which is located at 5175 Dumfries Street, Vancouver, British Columbia. The Community Centre is located on the South-East corner of Knight Street and 33rd Avenue. The Cub section is using the Multipurpose Room as their regular meeting location, while the Scout section is using the \"Old Hall\" as their regular meeting location."
         },
         
         {
             "id": "2",
             "delay": "100",
-            "question": "Feugiat scelerisque varius morbi enim nunc?",
-            "answer":"Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui."
+            "question": "How do I contact the leaders?",
+            "answer":"If you know which section the leader belongs to, simply go to our Contacts page, select the section he/she belongs to, and click on their email address to send an email. If you are unsure of which section the leader belongs to, but know the name of the leader, simply send an email using the following format: firstname.lastname@69scouts.org If you are unsure of the leader's name, but can recognize the leader, proceed to the Contacts page, go to the different sections, and hover your mouse over the leader's names. An image will occur below the name which corresponds to the leader. If you are unable to recognize the leader, simply send an email to info@69scouts.org and we will have your questions answered as soon as possible."
         },
 
         {
             "id": "3",
             "delay": "200",
-            "question": "Dolor sit amet consectetur adipiscing elit?",
-            "answer":"Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis."
+            "question": "Why doesn't this group have Beavers?",
+            "answer":"Our group is demand-oriented. Due to a lack of interest in these sections within our recruiting area, and the lack of leader resources, we are unable to hold regular meetings for the sections for the time being. However, there are nearby Scout Groups which offer these sections, and we would like to recommend you to them."
         },
 
         {
             "id": "4",
             "delay": "300",
-            "question": "Tempus quam pellentesque nec nam aliquam sem et tortor consequat?",
-            "answer":"Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in."
+            "question": "Is there a maximum capacity to the amount of youths you accept?",
+            "answer":"Unfortunately, we do put a cap on the number of people we accept into our group. This is because to ensure that quality program is given, we hold true to the policy of having one full time leader to every 5 youths in each section. This is so the youth can get the individual attention they need to learn. If you would like more information, please feel free to email us at: info@69scouts.org"
         },
 
         {
             "id": "5",
             "delay": "400",
-            "question": "Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?",
-            "answer":"Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque."
+            "question": "Do leaders get paid?",
+            "answer":"No, leaders are volunteers. In fact, if you talk to the leaders, many would tell you that they have part time or full time jobs to support being a leader. We are committed to providing an excellent program for everyone to enjoy. If we were paid, the focus of leaders may not be where it should be: on the youth. The perks of being a leader is that we get to participate in all the events we plan, learn a world of new things from other leaders and the youth, and we get to interact with the youth, while working with friends. We as leaders learn much about leadership, teamwork, organization, and a ton of useful skills! If you want to make a difference, and become a leader of our group, feel free to email us at info@69scouts.org."
+        },
+
+        {
+            "id": "6",
+            "delay": "500",
+            "question": "How do I join?",
+            "answer":"Simply email us at info@69scouts.org with your name, age, contact information, and preferred meeting time and we will do our best to accommodate. If we are unable to do so, we will suggest other groups that will meet your need. We believe that anyone who wishes to join the wonderful scouting movement should not be denied, and we will do everything we can do assist you in finding a group well suited for you."
+        },
+
+        {
+            "id": "7",
+            "delay": "600",
+            "question": "How much does it cost to join?",
+            "answer":"For the Scouting Year 2016 - 2017, the registration fee set by Scouts Canada is $200 per year. This is the amount we charge. Also, the purchase of uniform is required, and camping equipment may be necessary. In addition, outings such as camps may include a minimal cost."
+        }, 
+
+        {
+            "id": "8",
+            "delay": "700",
+            "question": "Is your group receiving any funds from the Government?",
+            "answer":"Yes. Our group acknowledges the financial assistance of the Province of British Columbia. This allows us to provide the excellent program to the youth with very little cost to the parents."
+        }, 
+
+        {
+            "id": "9",
+            "delay": "800",
+            "question": "I have a question/comment regarding the website!",
+            "answer": "Like this website? Dislike it? Do you have any questions with regards to the navigations? Links not working? Information out-dated? Do you have any suggestions on how to make this website more user-friendly? The people who put this site together is focused on making this website easy to navigate, infused with useful information. If you have any questions and/or comments for the website, please feel free to email the people who put this together at: webmaestro@69scouts.org."
+        },
+
+        {
+            "id": "10",
+            "delay": "900",
+            "question": "I have questions unanswered!",
+            "answer":"We understand that not all questions can be answered by a FAQ page. So if you have any questions we have not answered, please feel free to email us at: info@69scouts.org"
         }
     ]
 }
