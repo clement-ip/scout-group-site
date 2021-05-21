@@ -1138,7 +1138,7 @@ h1, h2, h3, h4, h5, h6 {
   /*--------------------------------------------------------------
   # Pricing
   --------------------------------------------------------------*/
-  .pricing .box {
+  .programs .box {
     padding: 20px;
     background: #fff;
     text-align: center;
@@ -1148,7 +1148,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
   }
   
-  .pricing h3 {
+  .programs h3 {
     font-weight: 400;
     margin: -20px -20px 20px -20px;
     padding: 20px 15px;
@@ -1158,7 +1158,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #f8f8f8;
   }
   
-  .pricing h4 {
+  .programs h4 {
     font-size: 36px;
     color: #1bbd36;
     font-weight: 600;
@@ -1166,19 +1166,19 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
   }
   
-  .pricing h4 sup {
+  .programs h4 sup {
     font-size: 20px;
     top: -15px;
     left: -3px;
   }
   
-  .pricing h4 span {
+  .programs h4 span {
     color: #bababa;
     font-size: 16px;
     font-weight: 300;
   }
   
-  .pricing ul {
+  .programs ul {
     padding: 0;
     list-style: none;
     color: #4d4643;
@@ -1187,34 +1187,34 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
   }
   
-  .pricing ul li {
+  .programs ul li {
     padding-bottom: 16px;
   }
   
-  .pricing ul i {
+  .programs ul i {
     color: #1bbd36;
     font-size: 18px;
     padding-right: 4px;
   }
   
-  .pricing ul .na {
+  .programs .na {
     color: #ccc;
     text-decoration: line-through;
   }
   
-  .pricing .btn-wrap {
+  .programs .btn-wrap {
     margin: 20px -20px -20px -20px;
     padding: 20px 15px;
     background: #f8f8f8;
     text-align: center;
   }
   
-  .pricing .btn-buy {
-    background: #1bbd36;
+  .programs .btn-buy {
+    /* background: #1bbd36; */
     display: inline-block;
     padding: 8px 35px 10px 35px;
     border-radius: 4px;
-    color: #fff;
+    /* color: #fff; */
     transition: none;
     font-size: 14px;
     font-weight: 400;
@@ -1223,16 +1223,67 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   
-  .pricing .btn-buy:hover {
+  /* .programs .btn-buy:hover {
     background: #2ae149;
-  }
-  
-  .pricing .featured h3 {
+  } */
+
+  .programs .cubs h3{
     color: #fff;
-    background: #1bbd36;
+    background: #f5870a;
+  }
+
+  .programs .cubs .btn-buy {
+    color: #fff;
+    background: #f5870a;
+  }
+
+  .programs .cubs .btn-buy:hover {
+    background: #eba555;
+  }
+
+  .programs .scouts h3 {
+    color: #fff;
+    background: #99C221;
+  }
+
+  .programs .scouts .btn-buy {
+    color: #fff;
+    background: #99c221;
+  }
+
+  .programs .scouts .btn-buy:hover {
+    background: #b4c977;
+  }
+
+  .programs .venturers h3 {
+    color: #fff;
+    background: #0078A7;
+  }
+
+  .programs .venturers .btn-buy {
+    color: #fff;
+    background: #0078A7;
+  }
+
+  .programs .venturers .btn-buy:hover {
+    background: #5498b3;
+  }
+
+  .programs .rovers h3{
+    color: #fff;
+    background: #F15060;
+  }
+
+  .programs .rovers .btn-buy{
+    color: #fff;
+    background: #F15060;
+  }
+
+  .programs .rovers .btn-buy:hover {
+    background: #e98790;
   }
   
-  .pricing .advanced {
+  .programs .advanced {
     width: 200px;
     position: absolute;
     top: 18px;
