@@ -22,28 +22,23 @@ function Header(){
                         <li>
                             <NavLink to="/about">About Us</NavLink>
                         </li>
-
-                        {/* <li className="dropdown"><span>Programs <i className="bi bi-chevron-down"/></span> */}
-                        <li className="dropdown"><NavLink to='/programs'>Programs <i className="bi bi-chevron-down"/></NavLink>
+                        <li>
+                            <NavLink to='/programs'>Programs</NavLink>
+                        </li>
+                        
+                        {/* <li className="dropdown"><NavLink to='/programs'>Programs <i className="bi bi-chevron-down"/></NavLink>
                             <ul>
                                 <li>
                                     <NavLink to='/programs/cubs'>Cub Scouts (Ages 8-10)</NavLink>
-                                    {/* <a href="#">Cub Scouts</a> */}
                                 </li>
                                 <li>
                                     <NavLink to='/programs/scouts'>Scouts (Ages 11-14)</NavLink>
-                                    {/* <a href="#">Scouts</a> */}
                                 </li>
                                 <li>
                                     <NavLink to='/programs/venturers'>Venturer Scouts (Ages 15-17)</NavLink>
-                                    {/* <a href="#">Venturer Scouts</a> */}
                                 </li>
                                 <li>
                                     <NavLink to='/programs/rovers'>Rover Scouts (Ages 18-26)</NavLink>
-                                    {/* <a href="#">Rover Scouts</a> */}
-                                </li>
-                                {/* <li>
-                                    <a href="#">Leadership Team</a>
                                 </li> */}
                                 {/* <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"/></a>
                                     <ul>
@@ -54,8 +49,8 @@ function Header(){
                                         <li><a href="#">Deep Drop Down 5</a></li>
                                     </ul>
                                 </li> */}
-                            </ul>
-                        </li>
+                            {/* </ul>
+                        </li> */}
 
                         <li>
                             <NavLink to="/faq">FAQ</NavLink>
