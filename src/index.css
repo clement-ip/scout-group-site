@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #1bbd36;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     .header-social-links {
       padding: 0 15px 0 0;
       border-left: 0;
@@ -252,6 +252,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
     line-height: 0;
     transition: 0.5s;
+    z-index: 999;
   }
   
   .mobile-nav-toggle.bi-x {
@@ -268,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .navbar-mobile {
-    position: fixed;
+    position: fixed !important; 
     overflow: hidden;
     top: 0;
     right: 0;
@@ -298,12 +299,18 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   
-  .navbar-mobile a {
+  .navbar-mobile a{
     padding: 10px 20px;
     font-size: 15px;
     color: #111;
   }
   
+  .navbar-mobile span{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #111;
+  }
+
   .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
     color: #1bbd36;
   }

@@ -1,7 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Header(){
+    const [menuState, setMenuState] = useState(false);
+    const [subMenuState, setSubMenuState] = useState(false);
+    
+    const toggle = () => {
+        setMenuState(!menuState);
+    };
+
+    const subToggle = () => {
+        setSubMenuState(!subMenuState);
+    };
+  
+    const checkToggle = () => {
+      if(menuState === true){
+        subToggle();
+      }
+      return null;
+    }
+
+    const mobileMenuToggle = () => {
+        if(menuState === true){
+            toggle();
+        }
+        return null;
+    }
+  
     return(
         <header id="header" className="fixed-top">
             <div className="container d-flex align-items-center">
@@ -14,16 +39,18 @@ function Header(){
                     <img src="assets/img/logos/headerLogo.jpg" alt="" className="img-fluid"/>
                 </NavLink>
 
-                <nav id="navbar" className="navbar order-last order-lg-0">
+                {/* <nav id="navbar" className="navbar order-last order-lg-0"> */}
+                <nav id="navbar" className={`${menuState ? "navbar order-last order-lg-0 navbar-mobile" : "navbar order-last order-lg-0"}`}>
+                {/* <nav id="navbar" className={`${menuState ? "navbar order-last order-lg-0 " : "navbar order-last order-lg-0 navbar-mobile"}`}> */}
                     <ul>
                         <li>
-                            <NavLink exact to ="/">Home</NavLink>
+                            <NavLink exact to ="/" onClick={mobileMenuToggle}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/about">About Us</NavLink>
+                            <NavLink to="/about" onClick={mobileMenuToggle}>About Us</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/programs'>Programs</NavLink>
+                            <NavLink to='/programs' onClick={mobileMenuToggle}>Programs</NavLink>
                         </li>
                         
                         {/* <li className="dropdown"><NavLink to='/programs'>Programs <i className="bi bi-chevron-down"/></NavLink>
@@ -53,10 +80,10 @@ function Header(){
                         </li> */}
 
                         {/* <li>
-                            <NavLink to="/faq">FAQ</NavLink>
+                            <NavLink to="/faq" onClick={toggle}>FAQ</NavLink>
                         </li> */}
-                        <li className="dropdown"><span>Resources <i className="bi bi-chevron-down"/></span>
-                            <ul>
+                        <li onClick={checkToggle} className="dropdown"><span>Resources <i className="bi bi-chevron-down"/></span>
+                            <ul className={`${subMenuState ? "dropdown-active" : ""}`}>
                                 <li>
                                     <a href="#" target="_blank" rel="noopener noreferrer">Email Login</a>
                                 </li>
@@ -75,10 +102,10 @@ function Header(){
                             </ul>
                         </li>
                         <li>
-                            <NavLink to='contact'>Contact Us</NavLink>
+                            <NavLink to='contact' onClick={mobileMenuToggle}>Contact Us</NavLink>
                         </li>
                     </ul>
-                    <i className="bi bi-list mobile-nav-toggle"/>
+                    <i onClick={toggle} className={`${menuState ? "bi mobile-nav-toggle bi-x" : "bi mobile-nav-toggle bi-list"}`}/>
                 </nav>
 
                 <div className="header-social-links d-flex">

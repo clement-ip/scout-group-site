@@ -13,13 +13,11 @@ function Footer(){
                         <div className="col-lg-3 col-md-6 footer-contact">
                             <h3>69th Knights of Kensington Scout Group</h3>
                             {/* <h4>69th Knights of Kensington Scout Group</h4> */}
-                            <p>
+                            {/* <p>
                                 5175 Dumfries St.<br/>
                                 Vancouver, BC V5P 3A2<br/>
                                 Canada
-                                {/* <strong>Phone:</strong> +1 5589 55488 55<br/>
-                                <strong>Email:</strong> info@example.com<br/> */}
-                            </p>
+                            </p> */}
                         </div>
 
                         <div className="col-lg-2 col-md-6 footer-links">
@@ -35,7 +33,7 @@ function Footer(){
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="#">FAQ</a>
+                                    <a href="#">Scout Shop</a>
                                 </li>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> */}

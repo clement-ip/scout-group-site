@@ -11,6 +11,7 @@ import About from './components/About.js';
 // import FAQ from './components/FAQ/FAQ.js';
 import Contact from './components/Contact.js';
 import ScrollToTop from './components/ScrollToTop.js'
+// import BackToTop from './components/BackToTop.js'
 // import Cubs from './components/programs/Cubs.js';
 // import Scouts from './components/programs/Scouts.js';
 // import Venturers from './components/programs/Venturers.js';
@@ -25,26 +26,29 @@ function App() {
     mirror: false
   })
 
+
   return (
-    <div className="App">
-      <Router>
-        <ScrollToTop/>
+    <Router>
         <Header/>
-          <Switch>
-            <Route exact path='/' component={Hero}/>
-            <Route path='/about' component={About}/>
-            <Route exact path='/programs' component={Programs}/>
-            {/* <Route path='/faq' component={FAQ}/> */}
-            <Route path='/contact' component={Contact}/>
-            {/* <Route path='/programs/cubs' component={Cubs}/> */}
-            {/* <Route path='/programs/scouts' component={Scouts}/> */}
-            {/* <Route path='/programs/venturers' component={Venturers}/> */}
-            {/* <Route path='/programs/rovers' component={Rovers}/> */}
-          </Switch>
-        <Footer/>
-        {/* </ScrollToTop> */}
-      </Router>
-    </div>
+        <div>
+          <ScrollToTop/>
+            <Switch>
+              <Route exact path='/' component={Hero}/>
+              <Route path='/about' component={About}/>
+              <Route exact path='/programs' component={Programs}/>
+              {/* <Route path='/faq' component={FAQ}/> */}
+              <Route path='/contact' component={Contact}/>
+              {/* <Route path='/programs/cubs' component={Cubs}/> */}
+              {/* <Route path='/programs/scouts' component={Scouts}/> */}
+              {/* <Route path='/programs/venturers' component={Venturers}/> */}
+              {/* <Route path='/programs/rovers' component={Rovers}/> */}
+            </Switch>
+          <Footer/>
+          {/* </ScrollToTop> */}
+          {/* <BackToTop/> */}
+      </div>
+    </Router>
+    
   );
 }
 

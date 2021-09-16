@@ -4,7 +4,7 @@ import Breadcrumbs from './Breadcrumbs';
 function Contact(){
     return(
         <div>
-            <Breadcrumbs section="Contact"/>
+            <Breadcrumbs section="Contact Us"/>
             
             <div className="map-section">
                 {/* <iframe style="border:0; width: 100%; height: 350px;" 
@@ -25,8 +25,8 @@ function Contact(){
                             <div className="col-lg-4 info">
                                 <i className="bi bi-geo-alt"/>
                                 <h4>Location:</h4>
-                                <p>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p>
-                                {/* <p><strong>Cubs, Venturers:</strong><br/>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p> */}
+                                {/* <p>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p> */}
+                                <p>TBD</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
@@ -70,7 +70,7 @@ function Contact(){
                 
                 {/* <div className="row mt-5 justify-content-center" data-aos="fade-up">
                     <div className="col-lg-10">
-                        <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                        <form action="" method="post" role="form" className="php-email-form">
                             <div className="row">
                                 <div className="col-md-6 form-group">
                                     <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required/>
