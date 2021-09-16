@@ -34,12 +34,12 @@ function App() {
             <Route exact path='/' component={Hero}/>
             <Route path='/about' component={About}/>
             <Route exact path='/programs' component={Programs}/>
-            <Route path='/faq' component={FAQ}/>
+            {/* <Route path='/faq' component={FAQ}/> */}
             <Route path='/contact' component={Contact}/>
-            <Route path='/programs/cubs' component={Cubs}/>
-            <Route path='/programs/scouts' component={Scouts}/>
-            <Route path='/programs/venturers' component={Venturers}/>
-            <Route path='/programs/rovers' component={Rovers}/>
+            {/* <Route path='/programs/cubs' component={Cubs}/> */}
+            {/* <Route path='/programs/scouts' component={Scouts}/> */}
+            {/* <Route path='/programs/venturers' component={Venturers}/> */}
+            {/* <Route path='/programs/rovers' component={Rovers}/> */}
           </Switch>
         <Footer/>
         {/* </ScrollToTop> */}

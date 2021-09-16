@@ -52,9 +52,9 @@ function Header(){
                             {/* </ul>
                         </li> */}
 
-                        <li>
+                        {/* <li>
                             <NavLink to="/faq">FAQ</NavLink>
-                        </li>
+                        </li> */}
                         <li className="dropdown"><span>Resources <i className="bi bi-chevron-down"/></span>
                             <ul>
                                 <li>
