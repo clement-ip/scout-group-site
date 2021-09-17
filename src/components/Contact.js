@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Breadcrumbs from './Breadcrumbs';
 
 function Contact(){
+    useEffect(() => { 
+        document.title = "Contact Us - 69th Knights of Kensington Scout Group"; 
+    },[]);
+
     return(
         <div>
             <Breadcrumbs section="Contact Us"/>

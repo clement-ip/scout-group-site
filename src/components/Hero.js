@@ -1,17 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 // import Programs from './programs/ProgramsMain';
 import Carousel from 'react-bootstrap/Carousel';
 
 
 function Hero(){
-
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
 
+  useEffect(() => { 
+    document.title = "69th Knights of Kensington Scout Group"; 
+  },[]);
+  
   return (
     <section id="hero">
       <Carousel activeIndex={index} onSelect={handleSelect} fade 

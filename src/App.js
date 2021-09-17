@@ -26,6 +26,7 @@ function App() {
     mirror: false
   })
 
+  // document.title = title || "69th Knights of Kensington";
 
   return (
     <Router>

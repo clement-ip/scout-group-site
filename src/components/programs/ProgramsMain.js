@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import { Link } from 'react-router-dom';
 import Breadcrumbs from '../Breadcrumbs';
 
 function Programs(){
+    useEffect(() => { 
+        document.title = "Programs - 69th Knights of Kensington Scout Group"; 
+    },[]);
+
     return(
         <div>
             <Breadcrumbs section="Programs"/>
@@ -68,7 +72,7 @@ function Programs(){
                                 <h3>Venturer Scouts</h3>
                                 <p><b>Ages 15-17</b></p>
                                 <p style={{textAlign:'left'}}>
-                                    In Venturers, we  challenge ourselves in many different ways. We learn more about being independent and responsible individuals that are able to provide for not only ourselves, but for our peers as well. 
+                                    In Venturers, we challenge ourselves in many different ways. We learn more about being independent and responsible individuals that are able to provide for not only ourselves, but for our peers as well. 
                                 </p> 
                                 <p style={{textAlign:'left'}}>
                                     We plan our own outings (such as White Water Rafting, Expedition Camps, Kayaking Trips, etc.) and strive towards both the Queen's Venturer Award, and the Duke of Edinburgh's Awards. This section requires a high level of commitment, but in return, the satisfaction is even greater.
@@ -92,7 +96,12 @@ function Programs(){
                                 {/* <span className="advanced">Advanced</span> */}
                                 <h3>Rover Scouts</h3>
                                 <p><b>Ages 18-26</b></p>
-                                
+                                <p style={{textAlign:'left'}}>
+                                    In Rovers, we offer the widest range of activities and adventures extending beyond all borders. Often times, members  becomes volunteer Scouters for the younger Sections such as Cubs and Scouts. 
+                                </p> 
+                                <p style={{textAlign:'left'}}>
+                                    When we are not helping out with a Section, our activities include large scale expeditions through a variety of transportation methods (bike, hike, kayak), to just getting together for dinner. Under the guidance of advisors, Rovers is about developing new skills, friendships and attitudes while giving back to the community. 
+                                </p>
                                 {/* <h4><sup>$</sup>49<span> / month</span></h4> */}
                                 {/* <ul>
                                     <li>Aida dere</li>

@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(255, 255, 255, 0.8);
   }
   
-  #hero .carousel-indicators li {
+  /* #hero .carousel-indicators li {
     cursor: pointer;
     background: #fff;
     overflow: hidden;
@@ -486,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero .carousel-indicators li.active {
     opacity: 1;
     background: #1b82bd;
-  }
+  } */
   
   @media (min-width: 1024px) {
     #hero .carousel-content {
@@ -569,7 +569,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 0;
     background: #1b82bd;
     min-height: 40px;
-    margin-top: 90px;
+    margin-top: 85.5px;
   }
   
   .breadcrumbs h2 {
