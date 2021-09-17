@@ -25,15 +25,15 @@ function Footer(){
                             <ul>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="#">Registration Instructions</a>
+                                    <a href="https://myscouts.ca/">myScouts</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="#">No One Left Behind (NOLB)</a>
+                                    <a href="https://www.scouts.ca/join/">Join Scouts</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="#">Scout Shop</a>
+                                    <a href="https://scoutshop.ca/">Scout Shop</a>
                                 </li>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> */}
@@ -47,21 +47,21 @@ function Footer(){
                                 <li><i className="bx bx-chevron-right"></i> <a href="#">No One Left Behind (NOLB)</a></li> */}
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="#">Official Website</a>
+                                    <a href="https://www.scouts.ca/">Official Website</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="#">Wiki</a>
+                                    <a href="http://wiki.scouts.ca/en/Main_Page">Wiki</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="#">Help Centre Ticket Request</a>
+                                    <a href="https://help.scouts.ca/hc/en-ca/requests/new">Help Centre Ticket Request</a>
                                 </li>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> */}
                             </ul>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 footer-newsletter">
+                        <div className="col-lg-4 col-md-6 footer-details">
                             <h4>Scouts Canada Charity Number: 107761694RR0028</h4>
                             <p>
                                 East Vancouver Area | Pacific Coast Council

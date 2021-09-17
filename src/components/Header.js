@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Header(){
@@ -85,19 +85,29 @@ function Header(){
                         <li onClick={checkToggle} className="dropdown"><span>Resources <i className="bi bi-chevron-down"/></span>
                             <ul className={`${subMenuState ? "dropdown-active" : ""}`}>
                                 <li>
-                                    <a href="#" target="_blank" rel="noopener noreferrer">Email Login</a>
+                                    <a onClick={mobileMenuToggle} href="http://mail.69scouts.org" target="_blank" rel="noopener noreferrer">
+                                        Scout Email Login
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank" rel="noopener noreferrer">myScouts</a>
+                                    <a onClick={mobileMenuToggle} href="https://myscouts.ca" target="_blank" rel="noopener noreferrer">
+                                        myScouts
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank" rel="noopener noreferrer">Thank a Scouter</a>
+                                    <a onClick={mobileMenuToggle} href="https://www.scouts.ca/thanks.html" target="_blank" rel="noopener noreferrer">
+                                        Thank a Scouter
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank" rel="noopener noreferrer">Zoom</a>
+                                    <a onClick={mobileMenuToggle} href="https://zoom.us/download" target="_blank" rel="noopener noreferrer">
+                                        Zoom (Download)
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank" rel="noopener noreferrer">Google Meets</a>
+                                    <a onClick={mobileMenuToggle} href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                        Google Meets
+                                    </a>
                                 </li>
                             </ul>
                         </li>
