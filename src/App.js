@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import AOS from 'aos';
 // import logo from './logo.svg';
 // import './App.css';
@@ -27,7 +28,8 @@ function App() {
   })
 
   return (
-    <Router>
+    // <Router basename='/'>
+    <Router basename={process.env.PUBLIC_URL}>
         <Header/>
         <div>
           <ScrollToTop/>

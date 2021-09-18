@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+// import { HashRouter } from 'react-router-dom';
 
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
@@ -18,9 +19,11 @@ require('dotenv').config()
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    {/* <HashRouter> */}
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
+    {/* </HashRouter> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
