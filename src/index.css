@@ -24,13 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-    position: fixed;
+    position: fixed !important;
     visibility: hidden;
     opacity: 0;
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #1bbd36;
+    background: #1b82bd;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -44,7 +44,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-    background: #21df41;
+    background: #239be0;
+    cursor: pointer;
     color: #fff;
 }
 
@@ -899,7 +900,8 @@ h1, h2, h3, h4, h5, h6 {
   .contact .info p {
     padding: 0 0 0 60px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
+    overflow-wrap: anywhere;
     color: #444444;
   }
   

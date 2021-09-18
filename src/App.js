@@ -11,7 +11,7 @@ import About from './components/About.js';
 // import FAQ from './components/FAQ/FAQ.js';
 import Contact from './components/Contact.js';
 import ScrollToTop from './components/ScrollToTop.js'
-// import BackToTop from './components/BackToTop.js'
+import BackToTop from './components/BackToTop.js'
 // import Cubs from './components/programs/Cubs.js';
 // import Scouts from './components/programs/Scouts.js';
 // import Venturers from './components/programs/Venturers.js';
@@ -46,7 +46,7 @@ function App() {
             </Switch>
           <Footer/>
           {/* </ScrollToTop> */}
-          {/* <BackToTop/> */}
+          <BackToTop/>
       </div>
     </Router>
     

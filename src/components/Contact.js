@@ -34,13 +34,17 @@ function Contact(){
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                                <i className="bi bi-envelope"/>
+                                <a href={process.env.REACT_APP_EMAIL_URL} target="_blank" rel="noopener noreferrer">
+                                    <i className="bi bi-envelope" />
+                                </a>
                                 <h4>Email:</h4>
                                 <p>info[at]69scouts.org</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                                <i className= "bx bxl-flickr-square"/>
+                                <a href={process.env.REACT_APP_FLICKR_URL} target="_blank" rel="noopener noreferrer">
+                                    <i className= "bx bxl-flickr-square" />
+                                </a>
                                 <h4>Flickr:</h4>
                                 <p>www.flickr.com/photos/69scouts/albums</p>
                             </div>
@@ -50,19 +54,25 @@ function Contact(){
                     <div className="info-wrap">
                         <div className="row">
                             <div className="col-lg-4 info">
-                                <i className="bi bi-facebook"/>
+                                <a href={process.env.REACT_APP_FACEBOOK_URL} target="_blank" rel="noopener noreferrer">
+                                    <i className="bi bi-facebook"/>
+                                </a>
                                 <h4>Facebook:</h4>
                                 <p>www.facebook.com/KOKScouts</p>
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                                <i className="bi bi-instagram"/>
+                                <a href={process.env.REACT_APP_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+                                    <i className="bi bi-instagram"/>
+                                </a>
                                 <h4>Instagram:</h4>
                                 <p>www.instagram.com/69scouts</p>
                             </div>
 
                             <div className="col-lg-4 info mt-4 mt-lg-0">
-                                <i className="bi bi-twitter"/>
+                                <a href={process.env.REACT_APP_TWITTER_URL} target="_blank" rel="noopener noreferrer">
+                                    <i className="bi bi-twitter" />
+                                </a>
                                 <h4>Twitter:</h4>
                                 <p>twitter.com/69scouts</p>
                             </div>

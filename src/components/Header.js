@@ -39,9 +39,7 @@ function Header(){
                     <img src="assets/img/logos/headerLogo.jpg" alt="" className="img-fluid"/>
                 </NavLink>
 
-                {/* <nav id="navbar" className="navbar order-last order-lg-0"> */}
-                <nav id="navbar" className={`${menuState ? "navbar order-last order-lg-0 navbar-mobile" : "navbar order-last order-lg-0"}`}>
-                {/* <nav id="navbar" className={`${menuState ? "navbar order-last order-lg-0 " : "navbar order-last order-lg-0 navbar-mobile"}`}> */}
+                <nav id="navbar" className={`navbar order-last order-lg-0 ${menuState ? "navbar-mobile" : " "}`}>
                     <ul>
                         <li>
                             <NavLink exact to ="/" onClick={mobileMenuToggle}>Home</NavLink>
@@ -80,7 +78,7 @@ function Header(){
                         </li> */}
 
                         {/* <li>
-                            <NavLink to="/faq" onClick={toggle}>FAQ</NavLink>
+                            <NavLink to="/faq" onClick={mobileMenuToggle}>FAQ</NavLink>
                         </li> */}
                         <li onClick={checkToggle} className="dropdown"><span>Resources <i className="bi bi-chevron-down"/></span>
                             <ul className={`${subMenuState ? "dropdown-active" : ""}`}>
@@ -115,7 +113,7 @@ function Header(){
                             <NavLink to='contact' onClick={mobileMenuToggle}>Contact Us</NavLink>
                         </li>
                     </ul>
-                    <i onClick={toggle} className={`${menuState ? "bi mobile-nav-toggle bi-x" : "bi mobile-nav-toggle bi-list"}`}/>
+                    <i onClick={toggle} className={`bi mobile-nav-toggle ${menuState ? "bi-x" : "bi-list"}`}/>
                 </nav>
 
                 <div className="header-social-links d-flex">

@@ -25,15 +25,15 @@ function Footer(){
                             <ul>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://myscouts.ca/">myScouts</a>
+                                    <a href="https://myscouts.ca/" target="_blank" rel="noopener noreferrer">myScouts</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://www.scouts.ca/join/">Join Scouts</a>
+                                    <a href="https://www.scouts.ca/join/" target="_blank" rel="noopener noreferrer">Join Scouts</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://scoutshop.ca/">Scout Shop</a>
+                                    <a href="https://scoutshop.ca/" target="_blank" rel="noopener noreferrer">Scout Shop</a>
                                 </li>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> */}
@@ -47,15 +47,15 @@ function Footer(){
                                 <li><i className="bx bx-chevron-right"></i> <a href="#">No One Left Behind (NOLB)</a></li> */}
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://www.scouts.ca/">Official Website</a>
+                                    <a href="https://www.scouts.ca/" target="_blank" rel="noopener noreferrer">Official Website</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="http://wiki.scouts.ca/en/Main_Page">Wiki</a>
+                                    <a href="http://wiki.scouts.ca/en/Main_Page" target="_blank" rel="noopener noreferrer">Wiki</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://help.scouts.ca/hc/en-ca/requests/new">Help Centre Ticket Request</a>
+                                    <a href="https://help.scouts.ca/hc/en-ca/requests/new" target="_blank" rel="noopener noreferrer">Help Centre Ticket Request</a>
                                 </li>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> */}
                             </ul>
