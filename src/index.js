@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter } from 'react-router-dom';
 
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
@@ -12,11 +13,14 @@ import 'boxicons/css/boxicons.min.css';
 import 'animate.css/animate.min.css';
 import 'remixicon/fonts/remixicon.css'
 
+
 require('dotenv').config()
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
