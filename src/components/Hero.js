@@ -22,21 +22,21 @@ function Hero(){
         nextLabel = ""
         prevIcon={<span className="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"/>} 
         nextIcon={<span className="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"/>}>
-        <Carousel.Item style={{backgroundImage: `url(assets/img/slide/slide1.jpg)`}}>
+        <Carousel.Item style={{backgroundImage: `url(assets/img/slide/1.jpg)`}}>
           {/* <img
             className="d-block w-100"
             src="assets/img/slide/slide1.jpg"
             alt="First slide"
           /> */}
         </Carousel.Item>
-        <Carousel.Item style={{backgroundImage: `url(assets/img/slide/slide2.jpg)`}}>
+        <Carousel.Item style={{backgroundImage: `url(assets/img/slide/2.jpg)`}}>
           {/* <img
             className="d-block w-100"
             src="assets/img/slide/slide2.jpg"
             alt="Second slide"
           /> */}
         </Carousel.Item>
-        <Carousel.Item style={{backgroundImage: `url(assets/img/slide/slide3.jpg)`}}>
+        <Carousel.Item style={{backgroundImage: `url(assets/img/slide/3.jpg)`}}>
           {/* <img
             className="d-block w-100"
             src="assets/img/slide/slide3.jpg"

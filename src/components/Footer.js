@@ -79,9 +79,9 @@ function Footer(){
                     <div className="copyright">
                         <strong><span>&copy; {getCurrentYear()} 69th Knights of Kensington</span></strong>. All Rights Reserved.
                     </div>
-                    <div className="credits">
+                    {/* <div className="credits">
                         Designed by...
-                    </div>
+                    </div> */}
                 </div>
                 <div className="social-links text-center text-md-right pt-3 pt-md-0">
                     <a href={process.env.REACT_APP_FACEBOOK_URL} className="facebook" target="_blank" rel="noopener noreferrer">

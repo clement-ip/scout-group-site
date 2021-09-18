@@ -34,7 +34,6 @@ function Header(){
                 {/* <h1 className="logo me-auto">
                     <NavLink to="/"><span>Com</span>pany</NavLink>
                 </h1> */}
-                {/* Uncomment below if you prefer to use an image logo */}
                 <NavLink to="/" className="logo me-auto">
                     <img src="assets/img/logos/headerLogo.jpg" alt="" className="img-fluid"/>
                 </NavLink>

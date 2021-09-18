@@ -15,7 +15,7 @@ function Programs(){
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         {/* <h2>Programs</h2> */}
-                        <p>We offer the following programs, and each of our sections were awarded with the Council Commissioner's Quality Award, for providing a quality program to the youth.</p>
+                        <h5>We offer the following programs, and each of our sections were awarded with the Council Commissioner's Quality Award, for providing a quality program to the youth.</h5>
                     </div>
                     
                     <div className="row">
