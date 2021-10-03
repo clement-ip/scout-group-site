@@ -11,10 +11,11 @@ function Contact(){
             <Breadcrumbs section="Contact Us"/>
             
             <div className="map-section">
-                {/* <iframe style="border:0; width: 100%; height: 350px;" 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" 
-                    frameborder="0" 
-                    allowfullscreen/> */}
+                <iframe style={{border:'0', width: '100%', height: '450px'}} 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.056663980962!2d-123.07699488371385!3d49.2374148818971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486741c71f59853%3A0xa4034848e5f6a36!2sKensington%20Community%20Centre!5e0!3m2!1sen!2sca!4v1633232193334!5m2!1sen!2sca" 
+                    title = "KCC"
+                    frameBorder="0" 
+                    allowFullScreen/>
             </div>
 
             <section id="contact" className="contact">
@@ -27,10 +28,13 @@ function Contact(){
                     <div className="info-wrap">
                         <div className="row">
                             <div className="col-lg-4 info">
-                                <i className="bi bi-geo-alt"/>
+                                <a href="https://goo.gl/maps/DzKkY254uyNErJUQ6" target="_blank" rel="noopener noreferrer">
+                                    <i className="bi bi-geo-alt"/>
+                                </a>
                                 <h4>Location:</h4>
-                                {/* <p>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p> */}
-                                <p>TBD</p>
+                                <b><p>Kensington Community Centre</p></b>
+                                <p>5175 Dumfries St.<br/>Vancouver, BC V5P 3A2</p>
+                                {/* <p>TBD</p> */}
                             </div>
                         
                             <div className="col-lg-4 info mt-4 mt-lg-0">
