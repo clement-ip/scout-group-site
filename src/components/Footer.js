@@ -29,11 +29,11 @@ function Footer(){
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://www.scouts.ca/join/" target="_blank" rel="noopener noreferrer">Join Scouts</a>
+                                    <a href="https://scoutshop.ca/" target="_blank" rel="noopener noreferrer">Scout Shop</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://scoutshop.ca/" target="_blank" rel="noopener noreferrer">Scout Shop</a>
+                                    <a href="/contact">Contact</a>
                                 </li>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> */}
@@ -45,13 +45,13 @@ function Footer(){
                             <ul>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">myScouts Registration Instructions</a></li>
                                 <li><i className="bx bx-chevron-right"></i> <a href="#">No One Left Behind (NOLB)</a></li> */}
-                                <li>
+                                {/* <li>
                                     <i className="bx bx-chevron-right"/> 
                                     <a href="https://www.scouts.ca/" target="_blank" rel="noopener noreferrer">Official Website</a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="http://wiki.scouts.ca/en/Main_Page" target="_blank" rel="noopener noreferrer">Wiki</a>
+                                    <a href="https://www.scouts.ca/join/" target="_blank" rel="noopener noreferrer">Join Scouts</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
@@ -64,7 +64,7 @@ function Footer(){
                         <div className="col-lg-4 col-md-6 footer-details">
                             <h4>Scouts Canada Charity Number: 107761694RR0028</h4>
                             <p>
-                                East Vancouver Area | Pacific Coast Council
+                                Pacific Coast Council
                             </p>
                             {/* <form action="" method="post">
                                 <input type="email" name="email"/><input type="submit" value="Subscribe"/>
@@ -90,9 +90,9 @@ function Footer(){
                     <a href={process.env.REACT_APP_INSTAGRAM_URL} className="instagram" target="_blank" rel="noopener noreferrer">
                         <i className="bx bxl-instagram"/>
                     </a>
-                    <a href={process.env.REACT_APP_TWITTER_URL} className="twitter" target="_blank" rel="noopener noreferrer">
+                    {/* <a href={process.env.REACT_APP_TWITTER_URL} className="twitter" target="_blank" rel="noopener noreferrer">
                         <i className="bx bxl-twitter"/>
-                    </a>
+                    </a> */}
                     <a href={process.env.REACT_APP_FLICKR_URL} className="flickr" target="_blank" rel="noopener noreferrer">
                         <i className="bx bxl-flickr-square"/>
                     </a>

@@ -44,7 +44,7 @@ function Header(){
                             <NavLink exact to ="/" onClick={mobileMenuToggle}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/about" onClick={mobileMenuToggle}>About Us</NavLink>
+                            <NavLink to="/about" onClick={mobileMenuToggle}>About</NavLink>
                         </li>
                         <li>
                             <NavLink to='/programs' onClick={mobileMenuToggle}>Programs</NavLink>
@@ -96,20 +96,10 @@ function Header(){
                                         Thank a Scouter
                                     </a>
                                 </li>
-                                <li>
-                                    <a onClick={mobileMenuToggle} href="https://zoom.us/download" target="_blank" rel="noopener noreferrer">
-                                        Zoom (Download)
-                                    </a>
-                                </li>
-                                <li>
-                                    <a onClick={mobileMenuToggle} href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
-                                        Google Meets
-                                    </a>
-                                </li>
                             </ul>
                         </li>
                         <li>
-                            <NavLink to='contact' onClick={mobileMenuToggle}>Contact Us</NavLink>
+                            <NavLink to='contact' onClick={mobileMenuToggle}>Contact</NavLink>
                         </li>
                     </ul>
                     <i onClick={toggle} className={`bi mobile-nav-toggle ${menuState ? "bi-x" : "bi-list"}`}/>
@@ -122,9 +112,9 @@ function Header(){
                     <a href={process.env.REACT_APP_INSTAGRAM_URL} className="instagram" target="_blank" rel="noopener noreferrer">
                         <i className="bu bi-instagram"/>
                     </a>
-                    <a href={process.env.REACT_APP_TWITTER_URL} className="twitter" target="_blank" rel="noopener noreferrer">
+                    {/* <a href={process.env.REACT_APP_TWITTER_URL} className="twitter" target="_blank" rel="noopener noreferrer">
                         <i className="bu bi-twitter"/>
-                    </a>
+                    </a> */}
                     <a href={process.env.REACT_APP_FLICKR_URL} className="flickr" target="_blank" rel="noopener noreferrer">
                         <i className="bx bxl-flickr-square"/>
                     </a>

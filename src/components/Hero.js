@@ -47,7 +47,7 @@ function Hero(){
       <div className="carousel-container">
           <div className="carousel-content animate__animated animate__fadeInUp text-center">
             <h2>69th Knights of Kensington Scout Group</h2>
-            <p>Sundays, 2-4pm. Since 2003. Based in Vancouver, British Columbia, Canada.</p>
+            <p>Since 2003. Based in Vancouver, British Columbia, Canada.</p>
             <div className="text-center">
               <Link to="/about" className="btn-start-links">History</Link>
               {/* <Link to="/programs" className="btn-get-started">Programs</Link> */}

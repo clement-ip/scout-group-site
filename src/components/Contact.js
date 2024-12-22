@@ -31,10 +31,10 @@ function Contact(){
             </section>
 
             <div className="map-section">
-                <iframe style={{border:'0', width: '100%', height: '450px'}} 
+                <iframe style={{border:'0', width: '100%', height: '550px'}} 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.056663980962!2d-123.07699488371385!3d49.2374148818971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486741c71f59853%3A0xa4034848e5f6a36!2sKensington%20Community%20Centre!5e0!3m2!1sen!2sca!4v1633232193334!5m2!1sen!2sca" 
                     title = "KCC"
-                    frameBorder="0" 
+                    // frameBorder="0" 
                     allowFullScreen/>
             </div>
 
@@ -44,11 +44,11 @@ function Contact(){
                         <div className="col-lg-20">
                             <div className="info-wrap">
                                 <div className="row">
-                                    <div className="col-lg-4 info">
+                                    {/* <div className="col-lg-4 info">
                                         <i className="bi bi-clock"/>
                                         <h4>Meeting Time:</h4>
                                         <p>Sundays, 2-4pm (unless otherwise notified)</p>
-                                    </div>
+                                    </div> */}
                                 
                                     <div className="col-lg-4 info mt-4 mt-lg-0">
                                         <a href={process.env.REACT_APP_EMAIL_URL} target="_blank" rel="noopener noreferrer">
@@ -57,33 +57,33 @@ function Contact(){
                                         <h4>Email:</h4>
                                         <p>info[at]69scouts.org</p>
                                     </div>
-                                
+
                                     <div className="col-lg-4 info mt-4 mt-lg-0">
-                                        <a href={process.env.REACT_APP_FLICKR_URL} target="_blank" rel="noopener noreferrer">
-                                            <i className= "bx bxl-flickr-square" />
-                                        </a>
-                                        <h4>Flickr:</h4>
-                                        <p>www.flickr.com/photos/69scouts/albums</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br/>
-                            <div className="info-wrap">
-                                <div className="row">
-                                    <div className="col-lg-4 info">
                                         <a href={process.env.REACT_APP_FACEBOOK_URL} target="_blank" rel="noopener noreferrer">
                                             <i className="bi bi-facebook"/>
                                         </a>
                                         <h4>Facebook:</h4>
                                         <p>www.facebook.com/KOKScouts</p>
                                     </div>
-                                
+
                                     <div className="col-lg-4 info mt-4 mt-lg-0">
                                         <a href={process.env.REACT_APP_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
                                             <i className="bi bi-instagram"/>
                                         </a>
                                         <h4>Instagram:</h4>
                                         <p>www.instagram.com/69scouts</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br/>
+                            {/* <div className="info-wrap">
+                                <div className="row">
+                                    <div className="col-lg-4 info mt-4 mt-lg-0">
+                                        <a href={process.env.REACT_APP_FLICKR_URL} target="_blank" rel="noopener noreferrer">
+                                            <i className= "bx bxl-flickr-square" />
+                                        </a>
+                                        <h4>Flickr:</h4>
+                                        <p>www.flickr.com/photos/69scouts/albums</p>
                                     </div>
 
                                     <div className="col-lg-4 info mt-4 mt-lg-0">
@@ -94,7 +94,7 @@ function Contact(){
                                         <p>twitter.com/69scouts</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 
