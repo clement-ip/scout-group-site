@@ -3,7 +3,7 @@ import Breadcrumbs from './Breadcrumbs';
 
 function Contact(){
     useEffect(() => { 
-        document.title = "Contact Us - 69th Knights of Kensington Scout Group"; 
+        document.title = "Contact Us - 69th Scout Group"; 
     },[]);
 
     return(
@@ -34,7 +34,6 @@ function Contact(){
                 <iframe style={{border:'0', width: '100%', height: '550px'}} 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.056663980962!2d-123.07699488371385!3d49.2374148818971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486741c71f59853%3A0xa4034848e5f6a36!2sKensington%20Community%20Centre!5e0!3m2!1sen!2sca!4v1633232193334!5m2!1sen!2sca" 
                     title = "KCC"
-                    // frameBorder="0" 
                     allowFullScreen/>
             </div>
 

@@ -4,7 +4,7 @@ import Breadcrumbs from '../Breadcrumbs';
 
 function Programs(){
     useEffect(() => { 
-        document.title = "Programs - 69th Knights of Kensington Scout Group"; 
+        document.title = "Programs - 69th Scout Group"; 
     },[]);
 
     return(

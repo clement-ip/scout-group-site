@@ -47,6 +47,9 @@ function Header(){
                             <NavLink to="/about" onClick={mobileMenuToggle}>About</NavLink>
                         </li>
                         <li>
+                            <NavLink to="/calendar" onClick={mobileMenuToggle}>Calendar</NavLink>
+                        </li>
+                        <li>
                             <NavLink to='/programs' onClick={mobileMenuToggle}>Programs</NavLink>
                         </li>
                         

@@ -15,7 +15,7 @@ import 'animate.css/animate.min.css';
 import 'remixicon/fonts/remixicon.css'
 
 
-require('dotenv').config()
+// require('dotenv').config()
 
 ReactDOM.render(
   <React.StrictMode>

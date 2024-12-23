@@ -12,7 +12,7 @@ function Hero(){
   };
 
   useEffect(() => { 
-    document.title = "69th Knights of Kensington Scout Group"; 
+    document.title = "69th Scout Group"; 
   },[]);
   
   return (
@@ -50,7 +50,8 @@ function Hero(){
             <p>Since 2003. Based in Vancouver, British Columbia, Canada.</p>
             <div className="text-center">
               <Link to="/about" className="btn-start-links">History</Link>
-              {/* <Link to="/programs" className="btn-get-started">Programs</Link> */}
+              <Link to="/calendar" className="btn-start-links">Calendar</Link>
+              {/* <Link to="/programs" className="btn-start-links">Programs</Link> */}
               <Link to="/contact" className="btn-start-links">Contact Us</Link>
             </div>
           </div>

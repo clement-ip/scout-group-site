@@ -18,6 +18,7 @@ import BackToTop from './components/BackToTop.js'
 // import Venturers from './components/programs/Venturers.js';
 // import Rovers from './components/programs/Rovers.js';
 import Programs from './components/programs/ProgramsMain.js';
+import Calendar from './components/Calendar.js';
 
 function App() {
   AOS.init({
@@ -34,11 +35,12 @@ function App() {
         <div>
           <ScrollToTop/>
             <Switch>
-              <Route exact path='/' component={Hero}/>
-              <Route path='/about' component={About}/>
-              <Route exact path='/programs' component={Programs}/>
+              <Route exact path="/" component={Hero}/>
+              <Route path="/about" component={About}/>
+              <Route path="/calendar" component={Calendar}/>
+              <Route exact path="/programs" component={Programs}/>
               {/* <Route path='/faq' component={FAQ}/> */}
-              <Route path='/contact' component={Contact}/>
+              <Route path="/contact" component={Contact}/>
               {/* <Route path='/programs/cubs' component={Cubs}/> */}
               {/* <Route path='/programs/scouts' component={Scouts}/> */}
               {/* <Route path='/programs/venturers' component={Venturers}/> */}

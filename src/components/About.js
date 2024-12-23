@@ -3,12 +3,12 @@ import Breadcrumbs from './Breadcrumbs';
 
 function About(props){
     useEffect(() => { 
-        document.title = "About Us - 69th Knights of Kensington Scout Group"; 
+        document.title = "About Us - 69th Scout Group"; 
     },[]);
 
     return(
         <div>
-            <Breadcrumbs section="About"/>
+            <Breadcrumbs section="About Us"/>
 
             <section id="about-us" className="about-us section-bg">
                 <div className="container text-center" data-aos="fade-up">

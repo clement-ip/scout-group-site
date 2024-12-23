@@ -11,7 +11,9 @@ function Footer(){
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 footer-contact">
-                            <h3>69th Knights of Kensington Scout Group</h3>
+                            <a href="/">
+                                <h3>69th Knights of Kensington Scout Group</h3>
+                            </a>
                             {/* <h4>69th Knights of Kensington Scout Group</h4> */}
                             {/* <p>
                                 5175 Dumfries St.<br/>
@@ -29,7 +31,7 @@ function Footer(){
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
-                                    <a href="https://scoutshop.ca/" target="_blank" rel="noopener noreferrer">Scout Shop</a>
+                                    <a href="/calendar">Calendar</a>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
@@ -56,6 +58,10 @@ function Footer(){
                                 <li>
                                     <i className="bx bx-chevron-right"/> 
                                     <a href="https://help.scouts.ca/hc/en-ca/requests/new" target="_blank" rel="noopener noreferrer">Help Centre Ticket Request</a>
+                                </li>
+                                <li>
+                                    <i className="bx bx-chevron-right"/> 
+                                    <a href="https://scoutshop.ca/" target="_blank" rel="noopener noreferrer">Scout Shop</a>
                                 </li>
                                 {/* <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> */}
                             </ul>
