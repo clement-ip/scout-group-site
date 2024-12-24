@@ -40,9 +40,9 @@ function Header(){
 
                 <nav id="navbar" className={`navbar order-last order-lg-0 ${menuState ? "navbar-mobile" : " "}`}>
                     <ul>
-                        <li>
+                        {/* <li>
                             <NavLink exact to ="/" onClick={mobileMenuToggle}>Home</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to="/about" onClick={mobileMenuToggle}>About</NavLink>
                         </li>
