@@ -17,6 +17,8 @@ function Calendar(){
                                     title = "69 SC Calendar"
                                     style={{border:"0", width:"100%", height:"905px"}}
                                     allowFullScreen/>
+                            <p/>
+                            Note: Events are subject to change. Please contact your Section Scouter for more information.
                         </div>
                     </div>
                 </div>
